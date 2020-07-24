@@ -1,0 +1,134 @@
+body{
+    background-color: bisque;
+}
+.main{
+    margin: 4em auto;
+    display: block;
+    height: auto;
+    width: 400px;
+    background-color: rgb(248, 187, 112);
+    /* align-items:center; */
+    text-align: center;
+    border-radius: 40px;
+    /* justify-content: center; */
+}
+.heading{
+    margin: 20px auto;
+    padding: 2px 10px;
+    font-size: xx-large;
+    font-weight:400;
+    color: royalblue;
+    height: 38px;
+    width: 108px;
+    border-radius: 35px;
+    background-color: rgb(199, 245, 115);
+    display: inline-block;
+    text-align: center;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lobster', cursive;
+    
+}
+.heading:hover{
+    background-color: black;
+}
+#push{
+    margin: 0px auto;
+    height: 150px;
+    width: auto;
+    background: none;
+    border-radius: 15px;
+}
+#push:hover{
+    background-color: rgb(248, 170, 117);
+    
+}
+#push_input{
+    font-family: 'Homemade Apple', cursive;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 200;
+    
+}
+
+#push-input{
+    line-height: 30px;
+    background-color: springgreen;
+    border: none;
+    border-radius: 50px;
+    color: red;
+}
+
+.push-btn{
+    font-family: 'Lexend Zetta', sans-serif;
+    background-color: rosybrown;
+    border: none;
+    color: rgb(85, 30, 85);
+    border-radius: 50px;
+    padding: 4px 7px;
+    text-align: center;
+    width: 80px;
+    margin: 0px auto;
+    font-size: 16px;
+}
+
+.push-btn:hover{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(209, 127, 127);
+    color: powderblue;
+}
+
+.pop-btn{
+    font-family: 'Lexend Zetta', sans-serif;
+    background-color: rosybrown;
+    border: none;
+    color: rgb(85, 30, 85);
+    border-radius: 50px;
+    padding: 4px 7px;
+    text-align: center;
+    width: 70px;
+    margin: 0px auto;
+    font-size: 16px;
+}
+
+.pop-btn:hover{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(209, 127, 127);
+    color: powderblue;
+}
+
+#size-input{
+    line-height: 50px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: xx-large;
+    margin: 2px auto;
+    padding: 5px 10px;
+    /* font-weight: 100; */
+    
+}
+
+#temp{
+    margin: 10px auto;
+    font-size: xx-large;
+    font-weight: bold;
+    color: brown;
+    font-family: 'Special Elite', cursive;
+    background-color: rgb(248, 195, 160);
+    border-radius: 20px;
+    box-shadow: 3px 3px red, -0.3em 0 .6em olive;
+    opacity: 0.5;
+}
+#display{
+    font-size: xx-large;
+    font-weight: bold;
+    color: brown;
+    font-family: 'Special Elite', cursive;
+    background-color: rgb(248, 195, 160);
+    border-radius: 40px;
+    box-shadow: 3px 3px red, -0.3em 0 .6em olive;
+    opacity: 0.77;
+}
+.display-text{
+    border: 1px rgb(248, 187, 112);
+}
